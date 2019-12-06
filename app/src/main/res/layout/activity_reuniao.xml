@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReuniaoActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstname_input_reuniao"
+        android:hint="nome da reuniao"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD REUNIAO"
+        android:id="@+id/button_add_reuniao"
+        android:onClick="add"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE REUNIAO"
+        android:id="@+id/button_delete_reuniao"
+        android:onClick="delete"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE REUNIAO"
+        android:id="@+id/button_update_reuniao"
+        android:onClick="update"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIST REUNIAO"
+        android:id="@+id/button_list_reuniao"
+        android:onClick="list"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="large text"
+        android:id="@+id/textviewreuniao"
+        android:gravity="center"/>
+
+
+
+
+
+</LinearLayout>
